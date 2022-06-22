@@ -1,0 +1,12 @@
+# path (including ip) to the ip.php file on the remote server
+IP_PATH=
+# ip of the database server
+DB_HOST=
+# port of the postgresql server
+DB_PORT=
+# name of the database
+DB_NAME=
+# username for the database user
+DB_USER=
+# password for the database user
+DB_PASS=
