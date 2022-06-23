@@ -4,4 +4,4 @@ CREATE TABLE ip (
 );
 
 -- insert a dummy ip
-INSERT INTO ip (ip) VALUES ("127.0.0.1");
+INSERT INTO ip (ip) VALUES ('127.0.0.1');

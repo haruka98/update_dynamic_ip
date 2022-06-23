@@ -16,5 +16,8 @@ COPY config.ini /tmp/
 # copy the script
 COPY update_ip.sh /tmp/
 
+# set permissions
+RUN chmod +x /tmp/update_ip.sh
+
 # run the script on startup
 CMD ["/tmp/update_ip.sh"]
